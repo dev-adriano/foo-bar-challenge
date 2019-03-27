@@ -1,4 +1,4 @@
-# FooBarChalenge
+# FooBarChallenge
 Approach for the Foo Bar Challenge
 
 **Instructions:**
