@@ -10,7 +10,7 @@ public class App
     public static void main( String[] args )
     {
         StringBuilder output = new StringBuilder();
-        for(int i = 1 ; i <= 15 ; i++) {
+        for(int i = 1 ; i <= 100 ; i++) {
             output.append(FooBarAnalyzer.isFooBarOrNumber(i)).append(", ");
         }
         System.out.println(output.toString());
