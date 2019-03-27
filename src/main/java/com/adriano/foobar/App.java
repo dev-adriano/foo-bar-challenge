@@ -1,13 +1,19 @@
 package com.adriano.foobar;
 
 /**
- * Hello world!
- *
+ * @author: Adrian Osorio (jadrian.osoriop@gmail.com)
+ * @version 1.0
  */
 public class App 
 {
+
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        StringBuilder output = new StringBuilder();
+        for(int i = 1 ; i <= 15 ; i++) {
+            output.append(FooBarAnalyzer.isFooBarOrNumber(i)).append(", ");
+        }
+        System.out.println(output.toString());
     }
+
 }
